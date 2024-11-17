@@ -12,7 +12,7 @@ client_secret = os.environ["CLIENT_SECRET"]
 username = os.environ["USERNAME"]
 password = os.environ["PASSWORD"]
 
-uri = ""
+uri = "www.example.com/oauth/authorize"
 
 auth_client = OAuth2(
     client_id=client_id,
