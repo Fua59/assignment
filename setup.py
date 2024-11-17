@@ -2,7 +2,9 @@ from ticktick.oauth2 import OAuth2 # OAuth2 Manager
 from ticktick.api import TickTickClient # Main Interface
 import os
 
-# TODO: 加载`.env`
+from dotenv import load_dotenv
+
+load_dotenv()
 
 client_id = os.environ["CLIENT_ID"]
 client_secret = os.environ["CLIENT_SECRET"]
